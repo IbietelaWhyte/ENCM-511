@@ -1,0 +1,10 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/Analog Devices/CrossCore Embedded Studio 2.9.0/System/linker_log.xsl"?>
+<DOCUMENT gen_time='Tue Nov 19 14:14:21 2019
+'>
+<MSG id='03979C50' mid='li1050' type='Error' >
+<TEXT><![CDATA['_main' ('main'): Multiply defined symbol in processor 'CORE_0'.
+        Initial definition:     'src\Test_Lab2_BF609_Core0.doj'
+        Attempted redefinition: 'src\Test_Lab2_BF609_Core0_EUNIT2017_main.doj']]></TEXT>
+</MSG>
+</DOCUMENT>

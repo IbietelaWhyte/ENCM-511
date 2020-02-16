@@ -1,0 +1,36 @@
+FP LED 9, 10 -- Activated indirectly via Timer1 and Timer3 tests
+Smith GPIO_FrontPanelLEDS Library activated
+Smith GPIO_FrontPanelSwitches Library activated
+EUNIT version Sep 27 2018
+Not using I/O stream UNITTEST_USE_CUSTOM_STREAMS
+
+Succesful link to test file TestDetails_cpp.
+..\src\DemoTests_BF609.cpp(52): Success in FPThread1_Task_ON: expected == result
+..\src\DemoTests_BF609.cpp(53): Success in FPThread1_Task_ON: 255 == 255
+..\src\DemoTests_BF609.cpp(61): Success in FPThread1_Task_OFF: expected == result
+..\src\DemoTests_BF609.cpp(62): Success in FPThread1_Task_OFF: 0 == 0
+..\src\DemoTests_BF609.cpp(70): Success in FPThread2_Task_ON: expected == result
+..\src\DemoTests_BF609.cpp(71): Success in FPThread2_Task_ON: 255 == 255
+..\src\DemoTests_BF609.cpp(80): Success in FPThread2_Task_OFF: expected == result
+..\src\DemoTests_BF609.cpp(81): Success in FPThread2_Task_OFF: 64 == 64
+..\src\DemoTests_BF609.cpp(88): Success in FPThread2_Task_OFF: expected == result
+..\src\DemoTests_BF609.cpp(89): Success in FPThread2_Task_OFF: 64 == 64
+..\src\DemoTests_BF609.cpp(96): Success in FPThread2_Task_OFF: expected == result
+..\src\DemoTests_BF609.cpp(97): Success in FPThread2_Task_OFF: 0 == 0
+..\src\DemoTests_BF609.cpp(105): Success in FPThread3_Task_0: expected == result
+..\src\DemoTests_BF609.cpp(106): Success in FPThread3_Task_0: 1 == 1
+..\src\DemoTests_BF609.cpp(112): Success in FPThread3_Task_0: expected == result
+..\src\DemoTests_BF609.cpp(113): Success in FPThread3_Task_0: 2 == 2
+..\src\DemoTests_BF609.cpp(119): Success in FPThread3_Task_0: expected == result
+..\src\DemoTests_BF609.cpp(120): Success in FPThread3_Task_0: 3 == 3
+..\src\DemoTests_BF609.cpp(126): Success in FPThread3_Task_0: expected == result
+..\src\DemoTests_BF609.cpp(127): Success in FPThread3_Task_0: 0 == 0
+..\src\DemoTests_BF609.cpp(140): Success in All_FPThreads: expected == result
+..\src\DemoTests_BF609.cpp(141): Success in All_FPThreads: 124 == 124
+..\src\DemoTests_BF609.cpp(150): Success in All_FPThreads: expected == result
+..\src\DemoTests_BF609.cpp(151): Success in All_FPThreads: 60 == 60
+Succesful link to test file DemoTests_BF609_cpp.
+Success: 9 blackbox tests passed.
+Blackbox Assert statistics: 0 Failures, 0 Expected Failures, 24 Successes.
+Whitebox Assert statistics: 0 Failures, 0 Expected Failures, 0 Successes. (Includes C Test statistics)
+Test time: 0.01890374 seconds.
