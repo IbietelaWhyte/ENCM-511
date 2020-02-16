@@ -1,0 +1,71 @@
+Succesful link to test file TestDetails_cpp.
+No file   C:/__CCES/E_UNIT/GUI_TestResultsFile.txtt 
+Read_CoreTimerRegisters()
+Read_CoreTimerRegisters()
+..\src\CoreTimerTests.cpp(29): Success in Start_Stop_Core_Timer: regCountVal1 == 0
+Read_CoreTimerRegisters()
+Read_CoreTimerRegisters()
+..\src\CoreTimerTests.cpp(32): Success in Start_Stop_Core_Timer: regPeriodVal1 == 0
+Read_CoreTimerRegisters()
+Read_CoreTimerRegisters()
+..\src\CoreTimerTests.cpp(35): Success in Start_Stop_Core_Timer: regTscaleVal1 == 0
+Read_CoreTimerRegisters()
+Read_CoreTimerRegisters()
+..\src\CoreTimerTests.cpp(38): Success in Start_Stop_Core_Timer: regControlVal1 == 0
+Init_CoreTimer()
+Read_CoreTimerRegisters()
+Read_CoreTimerRegisters()
+Read_CoreTimerRegisters()
+Read_CoreTimerRegisters()
+Read_CoreTimerRegisters()
+PlannedcoreTimerRegisterValue()
+..\src\CoreTimerTests.cpp(43): Success in Start_Stop_Core_Timer: 4000 == 4000
+Read_CoreTimerRegisters()
+PlannedcoreTimerRegisterValue()
+..\src\CoreTimerTests.cpp(45): Success in Start_Stop_Core_Timer: regPeriodVal2 == PlannedCoreTimerRegistervalue(REG_PERIOD)
+Read_CoreTimerRegisters()
+PlannedcoreTimerRegisterValue()
+..\src\CoreTimerTests.cpp(47): Success in Start_Stop_Core_Timer: regTscaleVal2 == PlannedCoreTimerRegistervalue(REG_TSCALE)
+Read_CoreTimerRegisters()
+PlannedcoreTimerRegisterValue()
+..\src\CoreTimerTests.cpp(49): Success in Start_Stop_Core_Timer: 1 == 1
+Init_CoreTimer()
+Read_CoreTimerRegisters()
+Read_CoreTimerRegisters()
+Read_CoreTimerRegisters()
+Read_CoreTimerRegisters()
+Read_CoreTimerRegisters()
+Start_CoreTimer()
+Read_CoreTimerRegisters()
+..\src\CoreTimerTests.cpp(56): Success in Start_Stop_Core_Timer: firstCoreTimerValue > secondCoreTimerValue
+Read_CoreTimerRegisters()
+..\src\CoreTimerTests.cpp(59): Success in Start_Stop_Core_Timer: secondCoreTimerValue> thirdCoreTimerValue
+Stop_CoreTimer()
+Read_CoreTimerRegisters()
+Read_CoreTimerRegisters()
+..\src\CoreTimerTests.cpp(64): Success in Start_Stop_Core_Timer: 0 == 0
+Init_CoreTimer()
+Read_CoreTimerRegisters()
+Read_CoreTimerRegisters()
+Read_CoreTimerRegisters()
+Read_CoreTimerRegisters()
+Done_CoreTimer()
+..\src\CoreTimerTests.cpp(72): Success in Done_CoreTimer: Done == false
+Start_CoreTimer()
+Read_CoreTimerRegisters()
+Done_CoreTimer()
+..\src\CoreTimerTests.cpp(77): Success in Done_CoreTimer: Done = true
+Done_CoreTimer()
+..\src\CoreTimerTests.cpp(80): Error: Failure in Done_CoreTimer: Done = false
+Dummy test has been inserted -- replace with your own -- Thu 2019/11/21 at 04:06:27 PM 
+..\src\CoreTimerTests.cpp(140): Success in DummyTestExamples: validTest == true
+..\src\CoreTimerTests.cpp(141): Success in DummyTestExamples: validTest == true
+..\src\CoreTimerTests.cpp(142): Success in DummyTestExamples: validTest == true
+..\src\CoreTimerTests.cpp(143): Success in DummyTestExamples: validTest == true
+..\src\CoreTimerTests.cpp(144): Success in DummyTestExamples: validTest == true
+Succesful link to test file CoreTimerTests_cpp.
+FAILURE: 1 out of 6 blackbox tests failed.
+Blackbox Assert statistics: 1 Failures, 0 Expected Failures, 18 Successes.
+Whitebox Assert statistics: 0 Failures, 0 Expected Failures, 0 Successes. (Includes C Test statistics)
+Test time: 0.00164849 seconds.
+No file   C:/__CCES/E_UNIT/GUI_TestResultsFile.txtt 
